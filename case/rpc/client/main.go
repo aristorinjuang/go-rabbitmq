@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/aristorinjuang/go-rabbitmq/pkg"
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 )
 
 func fibonacciRPC(n int) (res int, err error) {
